@@ -8,16 +8,16 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
+    <>
         <h1>Ja<span className="highlight">mmm</span>ing</h1>
         <div className="App">
             <SearchBar component />
             <div className="App-playlist">
              <SearchResults />
-            {/*<!-- Add a Playlist component --> */}
+            {/*<Playlist component /> */}
             </div>
         </div>
-    </div>
+    </>
   )
 }
 
